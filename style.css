@@ -5,6 +5,85 @@ body
     font-family: 'Raleway', Arial, sans-serif; 
 }
 
+p
+{
+    font-size: 0.8em;
+    color: #828081;
+    line-height: 0.3%;
+}
+
+h1
+{
+    font-size: 1em; 
+}
+
+h2
+{
+    font-size: 1em; 
+}
+
+a 
+{
+    text-decoration: none;
+    color: black;
+}
+
+li 
+{
+   list-style: none;
+   color: black;
+}
+
+.blue-star
+{
+    color:#0065FC;
+}
+
+.grey-star
+{
+    color:#F2F2F2;
+}
+
+/* Header */
+
+#top
+{   
+    display: flex;
+    justify-content: space-between; 
+    position: fixed; /* Position fixe qui fait buguer l'emplacement */
+}
+
+#menu li
+{   
+    display: inline;
+    padding: 20px;
+    color:#5C5C5B;
+}
+
+#menu
+{  
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 1px;
+}
+
+#menu li a:hover
+{
+    color:#0065FC;
+    text-decoration: overline;
+}
+
+
 /* Sections */
+
+.filtre
+{
+    display: flex;
+    border-radius: 5px
+}
+/* Footer */
 
 /* Media queries */
