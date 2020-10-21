@@ -129,6 +129,97 @@ li
     font-weight: bolder;
 }
 
+
+/* Section 2 : filtres */
+
+#filtres
+{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+}
+
+.titre-filtres
+{
+    padding: 30px;
+}
+
+.blue-icon
+{
+    color:#0065FC;
+    background: #DEEBFF;
+    padding: 10px;
+    border-radius: 3ex;
+}
+
+.type-filtres
+{
+    border-color: #F2F2F2;
+    border-style: solid solid solid none;
+    border-width: 0.15em 0.15em 0.15em 0em;
+    border-radius: 0ex 3ex 3ex 0ex;
+    padding: 1px 10px 0px 10px;
+    margin: 0px 10px 0px 0px;
+}
+
+.nom-filtre
+{
+    border-color: #F2F2F2;
+    border-style: solid solid solid none;
+    border-width: 0.15em 0.15em 0.15em 0em;
+    border-radius: 0ex 3ex 3ex 0ex;
+    padding: 8px 10px 8px 20px;
+    margin: 0px 10px 0px 0px;
+}
+
+#information
+{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+}
+
+.petit-i
+{
+    color:#0065FC;
+    border-color: #F2F2F2;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0.15em;
+    padding: 0.1em 0.6em 0.2em 0.6em;
+    margin: 0px 10px 0px 0px;
+}
+
+/* Section 3 : Accomodation */
+
+#first-choices
+
+{
+    display:flex;
+    background: #F2F2F2;
+    border-radius: 1%;
+    margin: 30px 0px 30px 0px;
+    flex-direction: column;
+    width: 60%;
+}
+
+.proposal
+{
+    display:flex;
+    flex-direction: row;
+    background: white;
+    border-color: white;
+    border-radius: 4ex;
+    margin: 30px 30px 30px 30px;
+}
+
+img {
+	width: 50px;
+	height: 50px;
+}
+
 /* Footer */
 
 /* Media queries */
