@@ -52,10 +52,11 @@ li
 
 /* Header */
 
-#top
+header
 {   
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .registration
@@ -70,6 +71,11 @@ li
     padding: 40px;
 }
 
+#menu li:hover
+{   
+    border-top: 2px solid #0065FC;
+}
+
 #menu
 {  
     margin: 0;
@@ -80,11 +86,14 @@ li
     top: 1px;
 }
 
+#fonctions 
+{
+    padding: 30px 10px 0px 10px;
+}
+
 #fonctions a:hover
 {
     color:#0065FC;
-    border-top: 1px solid #0065FC;
-    padding: 30px 10px 0px 10px;
     font-weight: bold;
 }
 
@@ -194,30 +203,81 @@ li
 
 /* Section 3 : Accomodation */
 
+#accomodation
+{
+    display:flex;
+    justify-content: space-between;
+}
+
 #first-choices
 
 {
     display:flex;
-    background: #F2F2F2;
-    border-radius: 1%;
-    margin: 30px 0px 30px 0px;
     flex-direction: column;
     width: 60%;
+    background: #F2F2F2;
+    margin: 30px 0px 30px 0px;
+    padding: 30px 30px 30px 30px;
+    border-radius: 1.5ex;
 }
 
+#conteneur-proposition
+
+{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#texte-first-choices
+{
+    padding: 0px 0px 0px 13px;
+}
 .proposal
 {
     display:flex;
     flex-direction: row;
     background: white;
     border-color: white;
-    border-radius: 4ex;
-    margin: 30px 30px 30px 30px;
+    height: 180px;
+    width: 25%;
+    border-radius: 2ex;
+    margin: 13px;
 }
 
-img {
-	width: 50px;
-	height: 50px;
+.img-proposal
+{
+    border-radius: 4ex 4ex 0ex 0ex;
+    margin: 2px;
+    border: 1px;
+    width: 100%; 
+    height: auto;
+}
+
+#second-choices
+
+{
+    display:flex;
+    flex-direction: column;
+    border-radius: 1.5ex;
+    margin: 30px 0px 30px 0px;
+    padding: 30px;
+    background: red; /* Couleur à mettre :  #F2F2F2 */
+}
+
+#header-second-choices
+{
+    display:flex;
+    justify-content: space-between;
+}
+
+.popular
+{
+    display:flex;
+    flex-direction: row;
+    background: white;
+    border-color: white;
+    border-radius: 2ex;
+    margin: 13px;
 }
 
 /* Footer */
