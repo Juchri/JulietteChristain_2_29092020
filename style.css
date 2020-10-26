@@ -111,7 +111,7 @@ header
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 20px 0px 0px 0px;
+    margin-top: 20px;
     font-size: 0.9em;
 }
 
@@ -124,8 +124,9 @@ header
 
 .ville
 {
-    padding: 0px 90px 0px 10px;
+    padding: 0px 80px 0px 10px;
     border: 1px #F2F2F2 solid;
+    margin-top: -1px;
 }
 
 .rechercher
@@ -236,7 +237,7 @@ header
     flex-wrap: wrap;
 }
 
-#texte-first-choices
+.texte-first-choices
 {
     padding-left: 12px;
     width: 100%;
@@ -264,7 +265,7 @@ header
 .img-proposal-a
 {
     width: 100%;
-    height: 50%;
+    height: 55%;
     border-radius: 2ex 2ex 0 0;
     background-image: url("images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
     background-size: cover;
@@ -274,7 +275,7 @@ header
 .img-proposal-b
 {
     width: 100%;
-    height: 50%;
+    height: 55%;
     border-radius: 2ex 2ex 0 0;
     background-image: url("images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
     background-size: cover;
@@ -284,7 +285,7 @@ header
 .img-proposal-c
 {
     width: 100%;
-    height: 50%;
+    height: 55%;
     border-radius: 2ex 2ex 0 0;
     background-image: url("images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
     background-size: cover;
@@ -294,7 +295,7 @@ header
 .img-proposal-d
 {
     width: 100%;
-    height: 50%;
+    height: 55%;
     border-radius: 2ex 2ex 0 0;
     background-image: url("images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
     background-size: cover;
@@ -304,9 +305,9 @@ header
 .img-proposal-e
 {
     width: 100%;
-    height: 50%;
+    height: 55%;
     border-radius: 2ex 2ex 0 0;
-    background-image: url("images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-image: url("images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -314,9 +315,9 @@ header
 .img-proposal-f
 {
     width: 100%;
-    height: 50%;
+    height: 55%;
     border-radius: 2ex 2ex 0 0;
-    background-image: url("images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    background-image: url("images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -393,7 +394,190 @@ header
     background-position: center;
 }
 
+/* Section 4 : Activities */
+
+.conteneur-activities
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.column 
+{
+   width: 22%;
+   padding-right: 40px;
+   height: 500px;
+}
+
+.text-activity
+{
+    padding: 1px 10px 1px 10px;
+}
+
+.activity-first-column
+{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-color: white;
+    border-radius: 2ex;
+    margin: 13px;
+    box-shadow: 3px 3px 20px #dbdbdb;
+    height: 420px;
+    width: 100%;
+}
+
+.second-column 
+{
+   display:flex;
+   flex-direction: column;
+}
+
+.activity-second-column-a
+{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-color: white;
+    border-radius: 2ex;
+    margin: 15px;
+    box-shadow: 3px 3px 20px #dbdbdb;
+    height: 245px;
+    width: 100%;
+}
+
+.activity-second-column-b
+{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-color: white;
+    border-radius: 2ex;
+    margin: 15px;
+    box-shadow: 3px 3px 20px #dbdbdb;
+    height: 160px;
+    width: 100%;
+}
+
+.activity-third-column
+{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-color: white;
+    border-radius: 2ex;
+    margin: 15px;
+    box-shadow: 3px 3px 20px #dbdbdb;
+    height: 420px;
+    width: 100%;
+}
+
+.activity-fourth-column 
+{
+   display:flex;
+   flex-direction: column;
+}
+
+.activity-fourth-column-a
+{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-color: white;
+    border-radius: 2ex;
+    margin: 15px;
+    box-shadow: 3px 3px 20px #dbdbdb;
+    height: 210px;
+    width: 100%;
+}
+
+.activity-fourth-column-b
+{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-color: white;
+    border-radius: 2ex;
+    margin: 15px;
+    box-shadow: 3px 3px 20px #dbdbdb;
+    height: 195px;
+    width: 100%;
+}
+
+.img-activity-a
+{
+    border-radius: 2ex 2ex 0 0 ;
+    background-image: url("images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 370px;
+}
+
+.img-activity-b
+{
+    border-radius: 2ex 2ex 0 0 ;
+    background-image: url("images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90%;
+}
+
+
+.img-activity-b-bis
+{
+    border-radius: 2ex 2ex 0 0 ;
+    background-image: url("images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90%;
+}
+
+.img-activity-c
+{
+    border-radius: 2ex 2ex 0 0 ;
+    background-image: url("images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 370px;
+}
+
+.img-activity-d
+{
+    border-radius: 2ex 2ex 0 0 ;
+    background-image: url("images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 170px;
+}
+
+.img-activity-d-bis
+{
+    border-radius: 2ex 2ex 0 0 ;
+    background-image: url("images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+}
 
 /* Footer */
+
+footer
+{
+    background-color: #F2F2F2;
+    background-repeat: repeat;
+}
+
+#footer-container
+{
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-coloumn
+{
+    width: 30%;
+}
 
 /* Media queries */
