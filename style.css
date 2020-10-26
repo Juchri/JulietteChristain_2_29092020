@@ -47,7 +47,7 @@ li
 
 .grey-star
 {
-    color:#F2F2F2;
+    color: #DADADB;
 }
 
 .black-icon
@@ -91,12 +91,12 @@ header
     top: 1px;
 }
 
-#fonctions 
+.fonctions 
 {
     padding: 30px 10px 0px 10px;
 }
 
-#fonctions a:hover
+#menu a:hover
 {
     color:#0065FC;
     font-weight: bold;
@@ -117,21 +117,20 @@ header
 
 .black-icon
 {
-    padding:10px;
+    padding:15px 15px 14px 15px;
     background-color: #F2F2F2;
     border-radius: 1ex 0ex 0ex 1ex;
 }
 
 .ville
 {
-    padding: 0px 80px 0px 10px;
+    padding: 0px 80px 0px 15px;
     border: 1px #F2F2F2 solid;
-    margin-top: -1px;
 }
 
 .rechercher
 {
-    padding:10px 15px 10px 15px;
+    padding:13px 15px 12px 15px;
     background-color: #0065FC;
     color: white;
     border-radius: 0ex 1ex 1ex 0ex;
@@ -153,11 +152,12 @@ header
     text-align: left;
     align-items: center;
     margin: 0px 0px 0px 0px;
+    font-weight: bold;
 }
 
 .titre-filtres
 {
-    padding: 30px;
+    margin-right: 30px;
 }
 
 .blue-icon
@@ -212,7 +212,7 @@ header
 
 /* Section 3 : Accomodation */
 
-#accomodation
+.accomodation
 {
     display:flex;
     justify-content: space-between;
@@ -234,12 +234,13 @@ header
 
 {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .texte-first-choices
 {
-    padding-left: 12px;
     width: 100%;
 }
 
@@ -249,17 +250,25 @@ header
     flex-wrap: wrap;
     background: white;
     height: 160px;
-    width: 25%;
+    min-width: 30%;
+    max-width: 50%;
     border-radius: 2ex;
-    margin: 3% 7.5% 3% 7.5%;
-    padding: 5px;
-    margin-left: -5px;
     box-shadow: 3px 3px 20px #dbdbdb;
+    padding: 5px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .proposal a
 {
     width: 100%;
+}
+
+.text-proposal 
+{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .img-proposal-a
@@ -365,6 +374,7 @@ header
     flex-direction: column;
     padding: 0 20px 0 20px;
     width: 60%;
+    justify-content: space-between;
 }
 
 .img-popular-a
@@ -401,6 +411,8 @@ header
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -35px;
 }
 
 .column 
@@ -422,7 +434,7 @@ header
     background: white;
     border-color: white;
     border-radius: 2ex;
-    margin: 13px;
+    margin: 15px;
     box-shadow: 3px 3px 20px #dbdbdb;
     height: 420px;
     width: 100%;
@@ -548,7 +560,7 @@ header
     background-image: url("images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    height: 170px;
+    height: 165px;
 }
 
 .img-activity-d-bis
@@ -562,21 +574,49 @@ header
 
 /* Footer */
 
+
 footer
 {
     background-color: #F2F2F2;
+    margin-left: -40px;
+    margin-right: -40px;
+    padding: 40px 40px 0px 40px;
 }
 
-#footer-container
+#footer-container 
 {
-    display:flex ;
+    display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    align-content: stretch;
 }
 
 .footer-coloumn
 {
-    width: 30%;
+    width: 33%;
 }
 
+ol 
+{
+    padding-inline-start: 0px;
+    font-size: 0.9em;
+}
+
+li
+{
+    margin-top: 15px;
+}
+
+
+.text-conditions
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100px;
+}
+
+.text-conditions
+{
+    margin-bottom: 1rem;
+}
 /* Media queries */
