@@ -68,15 +68,23 @@ header
 {
     font-weight: bold;
     color: #0065FC;
+    padding-left: 50px;
 }
 
-#menu li
+#menu
+{   
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-border-top
 {   
     display: inline;
-    padding: 40px;
+    padding: 40px 30px 0px 30px;
+    margin: 20px;
 }
 
-#menu li:hover
+.menu-border-top:hover
 {   
     border-top: 2px solid #0065FC;
 }
@@ -242,6 +250,13 @@ header
 .texte-first-choices
 {
     width: 100%;
+}
+
+.content-second-choices
+{
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .proposal
@@ -606,7 +621,6 @@ li
     margin-top: 15px;
 }
 
-
 .text-conditions
 {
     display: flex;
@@ -619,4 +633,209 @@ li
 {
     margin-bottom: 1rem;
 }
+
 /* Media queries */
+
+@media all and (max-width: 768px)
+{
+    body 
+    { 
+    margin: 20px 20px 5px 20px;
+    }
+}
+
+@media all and (max-width: 768px)
+{
+    body 
+    { 
+    width: 84%;
+    }
+}
+
+@media all and (max-width: 768px)
+{
+    p
+    {
+    font-size: 0.6em;
+    }
+}
+    
+   
+@media all and (max-width: 768px)
+{
+    h1
+    {
+    font-size: 0.7em; 
+    }
+}
+
+@media all and (max-width: 768px)
+{
+    h2 
+    {
+    font-size: 0.8em;
+    }
+}
+    
+@media all and (max-width: 768px)
+{
+    h3
+    {
+    font-size: 0.7em;
+    }
+}
+
+@media all and (max-width: 768px)
+{
+    .registration
+    {
+        display:flex;
+        align-items: flex-end;
+    }
+}
+
+@media all and (max-width: 768px)
+{
+	.fonctions 
+    {
+    padding: 10px 10px 0px 10px;
+    }
+}
+
+@media all and (max-width: 768px)
+{  
+    header
+    {
+    width: 695px;
+    }
+}
+
+
+
+@media all and (max-width: 768px)
+{  
+    .type-filtres
+    {
+    font-size: 0.7em;
+    }
+}
+
+@media all and (max-width: 768px)
+{  
+    .ville
+    {
+        padding: 0px 80px 0px 15px;
+        border: 1px #F2F2F2 solid;
+    }
+}
+
+@media all and (max-width: 768px)
+{  
+    .black-icon
+    {
+        padding: 11px;
+    }
+}
+
+@media all and (max-width: 768px)
+{  
+    .rechercher
+    {
+        padding: 9px;
+    }
+}
+
+
+@media all and (max-width: 768px)
+{  
+    .blue-icon
+    {
+        width: 15px;
+        height: 15px;
+        margin-left: -12px;
+    }
+}
+
+@media all and (max-width: 768px)
+{  
+    .titre-filtres
+    {
+        margin-right: 10px;
+    }
+}
+
+@media all and (max-width: 768px)
+{  
+
+    .type-filtres
+    {
+        border-color: #F2F2F2;
+        border-style: solid ;
+        border-width: 0.15em 0.15em 0.15em 0em;
+        border-radius: 3ex;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin: 10px;
+    }
+}
+
+@media all and (max-width: 768px)
+{  
+
+    .accomodation
+    {
+       display:flex;
+       flex-direction: column-reverse;
+    }
+}
+
+@media all and (max-width: 768px)
+
+{  
+   #second-choices
+    {
+        width: 700px;
+    }
+}
+
+@media all and (max-width: 768px)
+{  
+   .content-second-choices
+    {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media all and (max-width: 768px)
+{  
+   .popular
+    {
+        margin: 20px;
+        width: 300px;
+    }
+}
+
+@media all and (max-width: 768px)
+{  
+   .img-popular-a
+    {
+        width: 60%;
+    }
+}
+
+@media all and (max-width: 768px)
+{  
+   .img-popular-b
+    {
+        width: 60%;
+    }
+}
+
+@media all and (max-width: 768px)
+{  
+   .img-popular-c
+    {
+        width: 60%;
+    }
+}
