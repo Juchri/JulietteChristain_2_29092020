@@ -18,15 +18,15 @@
     <!-- Header -->
     <header>
 
-        <div class="logo"> 
+        <div class="logo" > 
             <img src="images/logo/Reservia.svg" alt="Logo Reservia"> 
         </div>
            
         <div class="navigation">
             <nav>
                 <ul id="menu">
-                    <li><a class=menu-border-top href="#accomodation" title="Hébergements">Hébergements</a></li>
-                    <li><a class=menu-border-top href="#activities" title="Activités">Activités</a></li>
+                    <li><a class=menu-border-top clas=menu-accomodation href="#accomodation" title="Hébergements">Hébergements</a></li>
+                    <li><a class=menu-border-top clas=menu-activities href="#activities" title="Activités">Activités</a></li>
                     <li><a class=registration href="#" title="S'inscrire">S'inscrire</a></li>
                 </ul>
             </nav>
@@ -46,9 +46,14 @@
                 <div class="ville">
                     <h2>Marseille, France</h2>
                 </div>
-                <div class="rechercher">
-                    <a href="#"> Rechercher </a> 
-                </div>
+                <button class="rechercher">
+                    <span class= "text-search">
+                        <a href="#"> Rechercher </a> 
+                    </span>
+                    <span class= "magnifying-glass-icon">
+                        <i class="magnifying-glass fas fa-search " aria-hidden="true"></i>
+                    </span>
+                </button>
             </div>
     </section> 
 
@@ -289,7 +294,7 @@
             <div class="column">
 
                 <div class="activity-first-column">
-                    <a href="#">
+                    <a href="#" class="activity">
                         <div class="img-activity-a"></div>
                         <div class="text-activity">
                             <h3>Vieux Port</h3>
@@ -301,7 +306,7 @@
             <div class="column">
 
                 <div class="activity-second-column">
-                    <a href="#">
+                    <a href="#" class="activity">
                         <div class="activity-second-column-a">
                             <div class="img-activity-b"></div>
                             <div class="text-activity">
@@ -312,7 +317,7 @@
                 </div>
             
                 <div class="activity-second-column">
-                    <a href="#">
+                    <a href="#" class="activity">
                         <div class="activity-second-column-b">
                             <div class= "img-activity-b-bis"></div>
                             <div class="text-activity">
@@ -325,7 +330,7 @@
 
             <div class="column-3">
                 <div class="activity-third-column">
-                    <a href="#">
+                    <a href="#" class="activity">
                         <div class= "img-activity-c"></div>
                         <div class="text-activity">
                             <h3>Parc National des Calanques</h3>
@@ -338,7 +343,7 @@
             <div class="column">
                 
                 <div class="activity-fourth-column-a">
-                    <a href="#">
+                    <a href="#" class="activity">
                         <div class= "img-activity-d"></div>
                         <div class="text-activity">
                             <h3>Notre-Dame-de-la-Garde</h3>
@@ -347,7 +352,7 @@
                 </div>
             
                 <div class="activity-fourth-column-b">
-                    <a href="#">
+                    <a href="#" >
                         <div class= "img-activity-d-bis"></div>
                         <div class="text-activity">
                             <h3>Parc Longchamp</h3>
