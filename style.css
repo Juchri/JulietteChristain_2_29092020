@@ -1045,7 +1045,9 @@ li
 {
     .ville
     { 
-        margin-left: -30px;
+        margin-left: -10px;
+        padding-left: -10px;
+        font-size: 0.8em;
     }
 }
 
@@ -1053,7 +1055,9 @@ li
 {
     .black-icon
     { 
-        padding: 20px;
+        padding: 19px;
+        font-size: 1.3em;
+        border-radius: 0.8ex 0ex 0ex 0.8ex;
     }
 }
 
@@ -1062,7 +1066,7 @@ li
     .rechercher
     { 
         border-radius: 1.3ex;
-        padding: 20px;
+        padding: 22px;
     }
 }
 
@@ -1180,6 +1184,7 @@ li
     .popular
      {
         width: 365px;
+        font-size: 0.9em;
      }
  }
 
@@ -1224,6 +1229,7 @@ li
     {
         width: 365px;
         height: 200px;
+        font-size: 0.9em;
     }
 }   
    
