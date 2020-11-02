@@ -1232,7 +1232,15 @@ li
         font-size: 0.9em;
     }
 }   
-   
+
+@media all and (max-width: 425px)
+{  
+    .text-proposal
+    {
+        padding-left: 10px;
+    }
+}   
+
 @media all and (max-width: 425px)
 {  
     h3
@@ -1250,6 +1258,8 @@ li
     {
         margin-top: 100px;
         margin-left: 10px;
+        display: flex;
+        flex-direction: column; 
     }
 }
 
@@ -1267,6 +1277,7 @@ li
     {
         width: 365px;
         height: 200px;
+        margin: 0px;
     }
 }
 
@@ -1276,6 +1287,7 @@ li
     {
         width: 365px;
         height: 200px;
+        margin-top: -170px;
     }
 }
 
@@ -1294,6 +1306,7 @@ li
     {
         width: 365px;
         height: 200px;
+        margin-top: -110px;
     }
 }
 
@@ -1303,6 +1316,7 @@ li
     {
         width: 365px;
         height: 200px;
+        margin-top: -130px;
     }
 }
 
@@ -1323,7 +1337,6 @@ li
         height: auto;
         display: flex;
         flex-flow: column;
-        padding-top: 20px;
         padding-bottom: 20px;
         height: 200px;
     }
@@ -1338,7 +1351,6 @@ li
         padding-top: 20px;
         padding-bottom: 20px;
         height: 200px;
-        order: 3;
     }
 }
 
@@ -1402,9 +1414,9 @@ li
 {  
    #footer-container
    {
-   display: flex;
-   flex-direction: column;
-   font-size: 1.3em;
+        display: flex;
+        flex-direction: column;
+        font-size: 1.3em;
    }
 }
 
@@ -1412,9 +1424,9 @@ li
 {  
    .footer-coloumn
    {
-   padding-top: 20px;
-   padding-bottom: 40px;
-   width: 400px;
-   font-size: 1.2em;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        width: 400px;
+        font-size: 1.2em;
    }
 }
