@@ -565,7 +565,7 @@ header
     background-image: url("images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    height: 370px;
+    height: 385px;
 }
 
 .img-activity-b
@@ -574,7 +574,7 @@ header
     background-image: url("images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    height: 90%;
+    height: 85%;
 }
 
 
@@ -584,7 +584,7 @@ header
     background-image: url("images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    height: 90%;
+    height: 78%;
 }
 
 .img-activity-c
@@ -593,7 +593,7 @@ header
     background-image: url("images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    height: 370px;
+    height: 385px;
 }
 
 .img-activity-d
@@ -602,7 +602,7 @@ header
     background-image: url("images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    height: 165px;
+    height: 170px;
 }
 
 .img-activity-d-bis
@@ -611,7 +611,7 @@ header
     background-image: url("images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    height: 150px;
+    height: 160px;
 }
 
 /* Footer */
@@ -790,6 +790,7 @@ li
    .popular
     {
         margin: 20px;
+        width: 40%;
     }
 
     #first-choices
@@ -807,11 +808,13 @@ li
     {
         margin: 20px;
         margin-left: 0px;
+        width: 40%;
     }
 
     #activities
      {
-         margin: 20px;
+        margin-left: 30px;
+        width: 100%;
      }
 
     .conteneur-activities
@@ -822,13 +825,12 @@ li
 
     .column
     {
-        margin-bottom: -50px;
+        width: 40%;
     }
 
     .column-3
     {
         order: 4;
-        margin-bottom: -50px;
     }
 
     footer
