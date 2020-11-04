@@ -635,6 +635,7 @@ li
     {
         display: flex;
         flex-direction: column;
+        margin-bottom: 10px;
     }
     .type-filtres a
     {
@@ -645,7 +646,7 @@ li
     }
     .ville
     {
-        padding: 0px 70px 0px 15px;
+        padding: 9.5px 70px 6px 15px;
         border: 1px #F2F2F2 solid;
     }
     .black-icon
@@ -654,7 +655,7 @@ li
     }
     .rechercher
     {
-        padding: 13px;
+        padding: 15px;
     }
     .blue-icon
     {
@@ -840,7 +841,8 @@ li
     }
     .ville
     {
-        margin-left: -10px;
+        padding-right: 0px;
+        padding-left: 0px;
     }
     #second-choices
     {
