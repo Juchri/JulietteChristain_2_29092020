@@ -235,7 +235,7 @@ nav
 
 /* Section 3 : Accomodation */
 
-.accomodation
+#accomodation
 {
     display:flex;
     justify-content: space-between;
@@ -677,7 +677,7 @@ li
     {
         display: inline;
     }
-    .accomodation
+    #accomodation
     {
        display:flex;
        flex-direction: column-reverse;
@@ -832,17 +832,14 @@ li
     }
     #menu li a
     {
-        width: 100%;
         display: flex;
         justify-content: center;
-        text-align: unset;
         padding-bottom: 1rem;
         border-bottom: 2px solid #f2f2f2;
-        padding-right: -30px;
     }
     #menu li a:hover
     {
-        border-top: none;
+        border-top: 0px none;
         border-bottom: 3px solid #0065FC;
     }
     .logo
