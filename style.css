@@ -159,7 +159,7 @@ nav
 
 .magnifying-glass-icon
 {
-   visibility: collapse;
+   visibility: hidden;
 }
 
 /* Section 2 : filtres */
@@ -806,10 +806,6 @@ li
     {
         padding: 20px;
     }
-    nav li
-    {
-        width:50%;
-    }
     .container-logo
     {
         display: flex;
@@ -822,7 +818,7 @@ li
         display:flex;
         order:3;
         margin:0;
-        justify-content: space-around;
+        width:100%;
     }
 
     #menu
@@ -894,7 +890,7 @@ li
     .text-search
     {
         display: flex;
-        visibility: collapse;
+        visibility: hidden;
         width: 0;
     }
     .blue-icon
