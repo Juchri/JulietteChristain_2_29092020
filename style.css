@@ -746,7 +746,7 @@ li
     }
     p
     {
-       font-size: 0.8em;
+       font-size: 1em;
     }
     body
     {
@@ -774,7 +774,6 @@ li
         margin:0;
         width:100%;
     }
-
     #menu
     {
         width: 100%;
