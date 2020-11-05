@@ -89,12 +89,6 @@ nav
     margin: 0px;
 }
 
-#menu a:hover
-{
-    color:#0065FC;
-    font-weight: bold;
-}
-
 .title-menu
 {
     padding: 40px 40px 0 40px;
@@ -103,6 +97,7 @@ nav
 .title-menu:hover
 {
     border-top: 2px solid #0065FC;
+    color:#0065FC;
 }
 
 .login
@@ -826,14 +821,15 @@ li
         width: 100%;
         margin: 0;
     }
-    #menu li a
+    .title-menu
     {
         display: flex;
         justify-content: center;
         padding-bottom: 1rem;
         border-bottom: 2px solid #f2f2f2;
+        width:50%;
     }
-    #menu li a:hover
+    .title-menu:hover
     {
         border-top: 0px none;
         border-bottom: 3px solid #0065FC;
