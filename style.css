@@ -730,7 +730,7 @@ li
 
 /* Media queries phone */
 
-@media all and (max-width: 470px)
+@media all and (max-width: 550px)
 {
     h1
     {
