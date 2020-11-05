@@ -842,6 +842,7 @@ li
     }
     #menu li a:hover
     {
+        border-top: none;
         border-bottom: 3px solid #0065FC;
     }
     .logo
