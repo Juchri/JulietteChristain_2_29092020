@@ -10,9 +10,7 @@
     <script src="https://kit.fontawesome.com/27350ed8ab.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--load all styles -->
 </head>
-
 
 <body>
     <!-- Header -->
@@ -43,9 +41,7 @@
                 <div class="localisation">
                     <i class="fas fa-map-marker-alt black-icon"></i>
                 </div>
-                <div class="ville">
-                    <h2>Marseille, France</h2>
-                </div>
+                <input class="search-input" type="search" placeholder="ville" value="Marseille, France" />
                 <button class="rechercher">
                     <span class= "text-search">
                         Rechercher
@@ -62,7 +58,6 @@
 
         <div class="filtres">
             <div class="titre-filtres"><h2>Filtres</h2></div>
-
             <div class="all-filtres">
                 <div class="type-filtres"><a href="#"><i class="fas fa-money-bill-wave blue-icon"></i> Économique</a></div>
                 <div class="type-filtres"><a href="#"><i class="fas fa-child blue-icon"></i> Familial </a></div>
@@ -89,7 +84,7 @@
                 <H2>Hébergements à Marseille</H2>
             </div>
             <div class="conteneur-proposition">
-                <a class="proposal" href="#">
+                <a class="box proposal" href="#">
                     <div class="img-proposal img-proposal-a"></div>
                     <div class="text-proposal">
                         <h3>Auberge la Canebière</h3>
@@ -103,7 +98,7 @@
                         </p>
                     </div>
                 </a>
-                <a href="#" class="proposal">
+                <a href="#" class="box proposal">
                     <div class="img-proposal img-proposal-b"></div>
                     <div class="text-proposal">
                         <h3>Hôtel du port</h3>
@@ -117,7 +112,7 @@
                         </p>
                     </div>
                 </a>
-                <a href="#" class="proposal">
+                <a href="#" class="box proposal">
                     <div class="img-proposal img-proposal-c"></div>
                     <div class="text-proposal">
                         <h3>Hôtel Les mouettes</h3>
@@ -131,7 +126,7 @@
                         </p>
                     </div>
                 </a>
-                <a href="#" class="proposal">
+                <a href="#" class="box proposal">
                     <div class="img-proposal img-proposal-d"></div>
                     <div class="text-proposal">
                         <h3>Hôtel de la mer</h3>
@@ -146,7 +141,7 @@
                     </div>
                 </a>
 
-                <a href="#" class="proposal">
+                <a href="#" class="box proposal">
                     <div class="img-proposal img-proposal-e"></div>
                     <div class="text-proposal">
                         <h3>Auberge Le Panier</h3>
@@ -161,7 +156,7 @@
                     </div>
                 </a>
 
-                <a href="#" class="proposal">
+                <a href="#" class="box proposal">
                     <div class="img-proposal img-proposal-f"></div>
                     <div class="text-proposal">
                         <h3>Hôtel chez Amina</h3>
@@ -195,8 +190,8 @@
             </div>
 
             <div class="content-second-choices">
-                <a href="#" class="popular">
-                    <div class ="img-popular-a">
+                <a href="#" class="box popular">
+                    <div class ="img-popular img-popular-a">
                     </div>
                     <div class= "text-popular">
                         <div class="firsts-lines-popular">
@@ -215,8 +210,8 @@
                     </div>
                 </a>
 
-                <a href="#" class="popular">
-                    <div class ="img-popular-b"></div>
+                <a href="#" class="box popular">
+                    <div class ="img-popular img-popular-b"></div>
                     <div class= "text-popular">
                         <div class="firsts-lines-popular">
                             <h3>Au cœur de l'eau Chambres d'hôtes</h3>
@@ -233,8 +228,8 @@
                         </div>
                     </div>
                 </a>
-                <a href="#" class="popular">
-                    <div class ="img-popular-c"></div>
+                <a href="#" class="box popular">
+                    <div class ="img-popular img-popular-c"></div>
                     <div class= "text-popular">
                         <div class="firsts-lines-popular">
                             <h3>Hôtel Tout bleu et Blanc</h3>
@@ -257,60 +252,52 @@
 
     <!-- Section 4 Activités -->
     <section id="activities">
+        <div>
+            <H2>Activités à Marseille</H2>
+        </div>
+        <div id="conteneur-activities">
 
-        <H2>Activités à Marseille</H2>
+            <a href="#"  class="box activity activity-1 activity-big">
+                <div class="img-activity img-activity-a img-activity-big"></div>
+                <div class="text-activity">
+                    <h3>Vieux Port</h3>
+                </div>
+            </a>
 
-        <div class="conteneur-activities">
-            <div class="column">
-                <a href="#"  class="activity activity-1 activity-big">
-                        <div class="img-activity img-activity-a img-activity-big"></div>
-                        <div class="text-activity">
-                            <h3>Vieux Port</h3>
-                        </div>
-                    </a>
-            </div>
+            <a href="#" class="box activity activity-2">
+                <div class="img-activity img-activity-b"></div>
+                <div class="text-activity">
+                    <h3>Fort de Pomègues</h3>
+                </div>
+            </a>
 
-            <div class="column">
-                <a href="#" class="activity activity-2">
-                    <div class="img-activity img-activity-b"></div>
-                    <div class="text-activity">
-                        <h3>Fort de Pomègues</h3>
-                    </div>
-                </a>
+            <a href="#" class="box activity activity-3">
+                <div class= "img-activity img-activity-b-bis"></div>
+                <div class="text-activity">
+                    <h3>Îles du Frioul</h3>
+                </div>
+            </a>
 
-                <a href="#" class="activity activity-3">
-                    <div class= "img-activity img-activity-b-bis"></div>
-                    <div class="text-activity">
-                        <h3>Îles du Frioul</h3>
-                    </div>
-                </a>
-            </div>
+            <a href="#" class="box activity activity-4 activity-big">
+                <div class= "img-activity img-activity-c img-activity-big"></div>
+                <div class="text-activity">
+                    <h3>Parc National des Calanques</h3>
+                </div>
+            </a>
 
-            <div class="column column-3">
-                <a href="#" class="activity activity-4 activity-big">
-                    <div class= "img-activity img-activity-c img-activity-big"></div>
-                    <div class="text-activity">
-                        <h3>Parc National des Calanques</h3>
-                    </div>
-                </a>
-            </div>
+            <a href="#" class="box activity activity-5">
+                <div class= "img-activity img-activity-d"></div>
+                <div class="text-activity">
+                    <h3>Notre-Dame-de-la-Garde</h3>
+                </div>
+            </a>
 
-
-            <div class="column">
-                <a href="#" class="activity activity-5">
-                    <div class= "img-activity img-activity-d"></div>
-                    <div class="text-activity">
-                        <h3>Notre-Dame-de-la-Garde</h3>
-                    </div>
-                </a>
-
-                <a href="#" class="activity activity-6">
-                    <div class= "img-activity img-activity-d-bis"></div>
-                    <div class="text-activity">
-                        <h3>Parc Longchamp</h3>
-                    </div>
-                </a>
-            </div>
+            <a href="#" class="box activity activity-6">
+                <div class= "img-activity img-activity-d-bis"></div>
+                <div class="text-activity">
+                    <h3>Parc Longchamp</h3>
+                </div>
+            </a>
 
         </div>
     </section>
