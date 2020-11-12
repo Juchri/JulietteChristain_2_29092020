@@ -6,58 +6,48 @@ body
     margin:0;
     padding: 40px;
 }
-
 p
 {
     font-size: 0.8em;
     color: #828081;
     margin: 0;
 }
-
 h1
 {
     font-size: 1em;
 }
-
 h2
 {
     font-size: 1em;
     margin: 0;
 }
-
 h3
 {
     font-size: 0.9em;
     margin: 0;
 }
-
 a
 {
     text-decoration: none;
     color: black;
 }
-
 li
 {
    list-style: none;
    color: black;
 }
-
 .blue-star
 {
     color:#0065FC;
 }
-
 .grey-star
 {
     color: #DADADB;
 }
-
 .black-icon
 {
     color:black;
 }
-
 .box
 {
     background: white;
@@ -79,31 +69,26 @@ li
     align-items: center;
     margin-bottom: 10px;
 }
-
 nav
 {
     margin-left: auto;
     margin-right: 40px;
 }
-
 #menu
 {
     display: flex;
     padding: 0px;
     margin: 0px;
 }
-
 .title-menu
 {
     padding: 40px 40px 0 40px;
 }
-
 .title-menu:hover
 {
     border-top: 2px solid #0065FC;
     color:#0065FC;
 }
-
 .login
 {
     color:#0065FC;
@@ -122,14 +107,12 @@ nav
     flex-wrap: wrap;
     padding-top: 25px;
 }
-
 .black-icon
 {
     padding: 15px;
     background-color: #F2F2F2;
     border-radius: 1ex 0ex 0ex 1ex;
 }
-
 .search-input
 {
     padding: 13px 80px 13px 15px;
@@ -137,7 +120,6 @@ nav
     font-weight: bold;
     font-size: 100%;
 }
-
 .rechercher
 {
     padding: 15px;
@@ -147,18 +129,16 @@ nav
     border: none;
     display: flex;
 }
-
 .text-search
 {
     font-weight: bolder;
     color: white;
 }
-
-.text-search a
+.text-search:hover
 {
-    color: white;
+    transform: scale(1.2);
+    border-radius: 50%;
 }
-
 .magnifying-glass-icon
 {
    visibility: hidden;
@@ -174,18 +154,15 @@ nav
     font-weight: bold;
     padding-top: 20px;
 }
-
 .all-filtres
 {
     display: flex;
     flex-direction: row;
 }
-
 .titre-filtres
 {
     margin-right: 30px;
 }
-
 .blue-icon
 {
     color:#0065FC;
@@ -197,7 +174,6 @@ nav
     margin-left: -21px;
     margin-right: 12px;
 }
-
 .type-filtres
 {
     border-color: #F2F2F2;
@@ -208,7 +184,6 @@ nav
     padding-left: 20px;
     margin: 10px;
 }
-
 .type-filtres:hover
 {
     background-color: #f3f8ff;
@@ -219,7 +194,6 @@ nav
     transform: scale(1.2);
     border-radius: 50%;
 }
-
 .information
 {
     display: flex;
@@ -228,7 +202,6 @@ nav
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
 .petit-i
 {
     color:#0065FC;
@@ -239,8 +212,6 @@ nav
     padding: 0.1em 0.6em 0.2em 0.6em;
     margin: 0px 10px 0px 0px;
 }
-
-
 /* Section 3 : Accomodation */
 
 #accomodation
@@ -415,7 +386,7 @@ nav
 }
 .activity
 {
-    width: 300px;
+    width: 23%;
 }
 .activity-big
 {
@@ -583,7 +554,7 @@ li
        flex-wrap: nowrap;
        padding-right: 5px;
     }
-    .ville
+    .search-input 
     {
         border: 1px #F2F2F2 solid;
     }
@@ -658,51 +629,53 @@ li
         margin-left: 0px;
         width: 43%;
     }
-     #activities
-    {
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
-    }
     #conteneur-activities
     {
-        height: auto;
-        margin-right: 0px;
-        width: 100%;
-        height: 200px;
-        margin-bottom: 30px;
-        display: flex;
-        flex-flow : row wrap;
-        margin-right: 0px;
-    }
-    .column
-    {
-        width: 100%;
+        height: 990px;
+        margin-top: 10px;
     }
     .img-activity
     {
         height: 78%;
     }
-    #activities
-    {
-        padding-left: 10px;
-    }
-
-    .activity-big
-    {
-        height: 100%;
-    }
     .img-activity-big
     {
         height: 90%;
     }
-    .column
+    .activity
     {
-        width: 45%;
+       width: 48%;
     }
-    .column-3
+    #activities
     {
-        order: 4;
+        padding-left: 20px;
+    }
+    .activity-1
+    {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .activity-2
+    {
+        margin-top: 20px;
+    }
+    .activity-3
+    {
+        margin-bottom: 20px;
+    }
+    .activity-4
+    {
+        order: 6;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .activity-5
+    {
+        margin-top: 20px;
+    }
+    .activity-6
+    {
+        margin-bottom: 20px;
     }
     footer
     {
@@ -797,8 +770,10 @@ li
         display: flex;
         justify-content: space-between;
         width: 100%;
+        padding-top: 0;
+
     }
-    .ville
+    .search-input
     {
         padding-right: 0px;
         padding-left: 0px;
@@ -820,13 +795,18 @@ li
         padding: 20px;
         font-size: 1.2em;
     }
-    .ville
+    .search-input
     {
         border: none
     }
     .magnifying-glass-icon
     {
         visibility: visible;
+    }
+    .magnifying-glass-icon:hover
+    {
+        transform: scale(1.2);
+        border-radius: 50%;
     }
     .text-search
     {
@@ -898,6 +878,7 @@ li
         display: flex;
         flex-flow : row wrap;
         height: auto;
+        padding-bottom: 10px;
     }
     .column
     {
@@ -911,7 +892,8 @@ li
     {
         width: 100%;
         height: 200px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
+        margin-top: 20px;
     }
     .img-activity
     {
