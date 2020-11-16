@@ -81,7 +81,7 @@ nav {
 }
 
 .title-menu {
-  padding: 40px 40px 0 40px;
+  padding: 40px 48px 0 48px;
 }
 
 .title-menu:hover {
@@ -571,7 +571,7 @@ li {
   #first-choices {
     width: 100%;
     background: white;
-    padding: 0px 10px 0px 10px;
+    padding: 0;
   }
   #second-choices {
     width: 100%;
@@ -702,6 +702,9 @@ li {
     border-radius: 0ex;
     width: 100%;
   }
+  .content-second-choices {
+    justify-content: center;
+  }
   .black-icon {
     padding: 22px;
     border-radius: 0.8ex 0ex 0ex 0.8ex;
@@ -738,6 +741,7 @@ li {
   }
   #second-choices {
     border-radius: 0ex;
+    padding: 0;
   }
   #header-second-choices {
     padding-bottom: 0px;
@@ -749,7 +753,7 @@ li {
   }
   #first-choices {
     margin: 0px;
-    padding: 20px;
+    padding: 0px;
   }
   .firsts-lines-popular {
     padding-bottom: 0.4em;
@@ -794,7 +798,7 @@ li {
     margin-top: 20px;
   }
   .img-activity {
-    height: 71%;
+    height: 79%;
   }
   #footer-container {
     display: flex;
@@ -802,5 +806,9 @@ li {
   }
   .footer-coloumn {
     width: 100%;
+  }
+  footer {
+    padding: 0;
+    margin: 0;
   }
 }
