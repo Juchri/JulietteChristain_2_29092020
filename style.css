@@ -726,9 +726,8 @@ li {
     border-radius: 50%;
   }
   .text-search {
-    display: flex;
-    visibility: hidden;
-    width: 0;
+    /* hide text-search */
+    display: none;
   }
   .blue-icon {
     padding: 16px;
