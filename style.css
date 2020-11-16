@@ -81,7 +81,7 @@ nav {
 }
 
 .title-menu {
-  padding: 40px 48px 0 48px;
+  padding: 40px 47px 0 47px;
 }
 
 .title-menu:hover {
@@ -102,7 +102,6 @@ nav {
   text-align: left;
   align-items: center;
   flex-direction: row;
-  flex-wrap: wrap;
   padding-top: 25px;
 }
 
@@ -116,7 +115,6 @@ nav {
   padding: 13px 80px 13px 15px;
   border: 1px #f2f2f2 solid;
   font-weight: bold;
-  font-size: 100%;
 }
 
 .rechercher {
@@ -563,6 +561,9 @@ li {
     display: flex;
     flex-direction: row;
   }
+  #second-choices {
+    width: 100%;
+  }
   .popular {
     margin: 10px;
     max-width: 42%;
@@ -573,12 +574,11 @@ li {
     background: white;
     padding: 0;
   }
-  #second-choices {
-    width: 100%;
+  .texte-first-choices {
+    padding-left: 0;
   }
   .proposal {
     margin: 20px;
-    margin-left: 0px;
     width: 43%;
   }
   #conteneur-activities {
@@ -656,11 +656,11 @@ li {
     width: 100%;
   }
   nav {
-    display: flex;
-    justify-content: space-around;
     order: 3;
-    margin: 0;
     width: 100%;
+  }
+  nav li {
+    width: 50%;
   }
   #menu {
     width: auto;
@@ -746,14 +746,8 @@ li {
   #header-second-choices {
     padding-bottom: 0px;
   }
-  .text-popular {
+  .conteneur-proposition {
     align-content: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-  #first-choices {
-    margin: 0px;
-    padding: 0px;
   }
   .firsts-lines-popular {
     padding-bottom: 0.4em;
@@ -763,7 +757,8 @@ li {
     width: 100%;
   }
   .proposal {
-    min-width: 88%;
+    max-width: 100%;
+    width: 100%;
     height: 200px;
   }
   .text-proposal {
@@ -808,7 +803,8 @@ li {
     width: 100%;
   }
   footer {
-    padding: 0;
+    padding-left: 20px;
+    padding-top: 20px;
     margin: 0;
   }
 }
