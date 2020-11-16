@@ -3,4 +3,4 @@ Deuxième projet du parcours "Prep'Apprentissage - Développeur Web" chez OpenCl
 
 Lien du site : https://juchri.github.io/JulietteChristain_2_29092020/
 
-Support de présentation : https://view.genial.ly/5fa592019bff5f0cee6cec37/interactive-image-transformer-une-maquette-reservia
+Support de présentation 1 : https://view.genial.ly/5fa592019bff5f0cee6cec37/interactive-image-transformer-une-maquette-reservia
