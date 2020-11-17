@@ -4,6 +4,7 @@ body {
   font-family: "Raleway", Arial, sans-serif;
   margin: 0;
   padding: 40px;
+  padding-bottom: 0;
 }
 
 p {
@@ -241,8 +242,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   height: 160px;
-  min-width: 30%;
-  max-width: 50%;
+  width: 30%;
   padding: 5px;
   margin-bottom: 30px;
   margin-top: 30px;
@@ -490,6 +490,12 @@ li {
   h3 {
     font-size: 0.8em;
   }
+  .container-logo {
+    align-items: unset;
+    justify-content: space-around;
+    padding: 0;
+    width: 100%;
+  }
   .registration {
     display: flex;
     align-items: flex-end;
@@ -562,24 +568,22 @@ li {
     flex-direction: row;
   }
   #second-choices {
-    width: 100%;
+    width: auto;
+  }
+  .titre-second-choices {
+    padding-bottom: 20px;
   }
   .popular {
     margin: 10px;
-    max-width: 42%;
-    min-width: 89%;
+    width: 100%;
   }
   #first-choices {
-    width: 100%;
+    width: auto;
     background: white;
-    padding: 0;
-  }
-  .texte-first-choices {
-    padding-left: 0;
+    padding: 20px;
   }
   .proposal {
-    margin: 20px;
-    width: 43%;
+    width: 47%;
   }
   #conteneur-activities {
     height: 990px;
@@ -593,9 +597,6 @@ li {
   }
   .activity {
     width: 48%;
-  }
-  #activities {
-    padding-left: 20px;
   }
   .activity-1 {
     margin-bottom: 20px;
@@ -619,10 +620,10 @@ li {
     margin-bottom: 20px;
   }
   footer {
-    padding: 40px 40px 0px 60px;
+    margin-right: -20px;
   }
   .text-conditions {
-    padding-right: 20px;
+    padding-right: 25%;
   }
 }
 
@@ -651,6 +652,8 @@ li {
     padding: 20px;
   }
   .container-logo {
+    align-items: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     padding: 0;
     width: 100%;
@@ -658,6 +661,7 @@ li {
   nav {
     order: 3;
     width: 100%;
+    margin-right: 0;
   }
   nav li {
     width: 50%;
@@ -697,6 +701,7 @@ li {
   .search-input {
     padding-right: 0px;
     padding-left: 0px;
+    width: 100%;
   }
   #second-choices {
     border-radius: 0ex;
@@ -779,12 +784,6 @@ li {
     height: auto;
     padding-bottom: 10px;
   }
-  .column {
-    width: 100%;
-  }
-  .column-3 {
-    order: unset;
-  }
   .activity {
     width: 100%;
     height: 200px;
@@ -793,6 +792,9 @@ li {
   }
   .img-activity {
     height: 79%;
+  }
+  .activity-4 {
+    order: unset;
   }
   #footer-container {
     display: flex;
